@@ -11,7 +11,6 @@ do{
 
   // Get files infomation subordinated shared drives
   folderList = Drive.Files.list({
-  // spaces: "drive",
   q: "visibility = 'anyoneWithLink'",
   includeItemsFromAllDrives: true,
   supportsAllDrives: true,
